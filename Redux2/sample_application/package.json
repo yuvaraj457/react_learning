@@ -24,10 +24,27 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+        "react-app",
+        "react-app/jest"
+    ],
+    "rules": {
+        "no-undef": [
+            2
+        ],
+        "camelcase": [
+            1
+        ],
+        "no-console": [
+            1
+        ],
+        "no-extra-semi": [
+            1
+        ],
+        "vars-on-top": [
+            1
+        ]
+    }
+}},
   "browserslist": {
     "production": [
       ">0.2%",
