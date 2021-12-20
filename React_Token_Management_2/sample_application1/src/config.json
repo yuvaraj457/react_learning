@@ -1,0 +1,9 @@
+{
+    "targetUrl" : "http://localhost:5000",
+    "url" : {
+        "login" : "/login",
+        "logout" : "/logout",
+        "about" : "/about",
+        "home" : "/home"
+    }
+}
